@@ -77,33 +77,55 @@
 </nav><!--end nav-->
 
 
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <picture>
+                <source srcset="images/carousel/ticketflyTicketRESIZE.jpg" media="(min-width: 769px)">
+                <source srcset="images/carousel/ticketflyTicket800x500.jpg" media="(min-width: 577px)">
+                <img srcset="images/carousel/ticketflyTicket600x500.jpg" alt="responsive image" class="d-block img-fluid">
+            </picture>
+        </div>
+       <div class="carousel-item">
+           <picture>
+               <source srcset="images/carousel/christmasFireRESIZE.jpg" media="(min-width: 769px)">
+               <source srcset="images/carousel/christmasFire800x500.jpg" media="(min-width: 577px)">
+               <img srcset="images/carousel/christmasFire600x500.jpg" alt="responsive image" class="d-block img-fluid">
+           </picture>
+        </div>
+        <div class="carousel-item">
+            <picture>
+                <source srcset="images/carousel/teamDinnerRESIZE.jpg" media="(min-width: 769px)">
+                <source srcset="images/carousel/ticketflyTicket800x500.jpg" media="(min-width: 577px)">
+                <img srcset="images/carousel/teamDinner600x500.jpg" alt="responsive image" class="d-block img-fluid">
+            </picture>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
 
 <div class="container-fluid no-gutters no-margin p-0">
     <!--About Transition Background-->
-    <div class="parallax-window1">
+    <div class="parallax-window3">
         <div class="caption">
-            <span class="text" id="about"></span>
+            <span class="text" id="about">Meet the Team</span>
         </div>
     </div>
 </div>
+
 
 <div class="container-fluid">
     <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
     <div class="row text-center mt-5 mb-5">
         <div class="col-12 col-md-4">
-            <div class="col-12">
-                <div class="ch-item ch-img-1">
-                    <div class="ch-info-wrap">
-                        <div class="ch-info">
-                            <div class="ch-info-front ch-img-1"></div>
-                            <div class="ch-info-back">
-                                <h3>Bears Type</h3>
-                                <p>by Josh Schott <a href="http://drbl.in/ewUW">View on Dribbble</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
             <img class="img-fluid rounded-circle" src="images/marcusHeadshotResize.png"/>
             <h3 class="mt-4 ">Executive Director</h3>
             <h5 class=" ">Marcus Maltz</h5>
@@ -125,9 +147,11 @@
 </div>
 
 
+
+
 <div id="footer">
 
-    <div class="row footerLogo footerDownsize" id="contact">
+    <div class="row footerLogo footerDownsize no-margin" id="contact">
         <div class="col-3"></div>
         <div class="col-6">
             <img class="img-fluid" src="images/JumpBeatLogo_V4.png">
@@ -143,7 +167,7 @@
 
 
 
-    <div class="row pt-5">
+    <div class="row pt-5 no-margin">
         <div class="col-12">
             <div class="SocialLinks">
 
@@ -172,7 +196,6 @@
 
 <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="js/classie.js"></script>
-<script src="js/copyText.js"></script>
 <script src="js/creative.min.js"></script>
 
 </body>
