@@ -67,7 +67,7 @@
     </div>
     <div class="contactWrapper d-none d-md-block ">
         <ul class="list-inline m-0 ">
-            <li class="text-white pt-2"><a href="contact.php">CONTACT US</a></li>
+            <li class="text-white h-100 justify-content-center align-items-center"><a href="contact.php">CONTACT US</a></li>
             <li class="header-info align-center  "><a href="tel:17206079406">720-607-9406</a></li></li>
             <li><a href="https://twitter.com/JumpBeatProject" target="_blank" ><i class="fa fa-twitter fa-2x whiteText" aria-hidden="true"></i></a></li>
             <li> <a href="https://www.facebook.com/jumpbeatproject/"  ><i class="fa fa-facebook fa-2x whiteText " aria-hidden="true"></i></a></li>
@@ -115,7 +115,7 @@
     <!--About Transition Background-->
     <div class="parallax-window3">
         <div class="caption">
-            <span class="text" id="about">Meet the Team</span>
+            <span class="text h-100 justify-content-center align-items-center" id="about">Meet the Team</span>
         </div>
     </div>
 </div>
@@ -124,9 +124,24 @@
 <div class="container-fluid">
     <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
     <div class="row text-center mt-5 mb-5">
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4 ">
+            <div class="flip-circle-wrapper">
+                <div class="flip-circle mx-auto">
+                    <div class="flip-circle-inner">
+                        <div class="flip-circle-front">
+                            <img  class="img-fluid rounded-circle" src="images/marcusHeadshotResize.png" alt="Marcus" >
+                        </div>
+                        <div class="flip-circle-back">
+                            <h2>Marcus</h2>
+                            <p>Executive Director <a href="#">marcus@jumpbeatproject.org</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            <img class="img-fluid rounded-circle" src="images/marcusHeadshotResize.png"/>
+
+
+
             <h3 class="mt-4 ">Executive Director</h3>
             <h5 class=" ">Marcus Maltz</h5>
             <h5 class=""><a href="mailto:marcus@jumpbeatproject.org">marcus@jumpbeatproject.org</a></h5>

@@ -9,11 +9,10 @@
 
 /* -------************* GLOBAL *****************-------*/
 
-* {
-
-color: #0f0 !important;
-outline: solid #f00 1px !important;
-}
+/** {*/
+/*color: #0f0 !important;*/
+/*outline: solid #f00 1px !important;*/
+/*}*/
 
 body {
     padding-top: 5rem;
@@ -231,6 +230,72 @@ li{
 }
 
 
+/* -------************* PARALLAX *****************-------*/
+
+/*Main Parallax styles*/
+.parallax-window1, .parallax-window2, .parallax-window3, .parallax-window4{
+    /*font family*/
+    font-family: 'Spectral', serif;
+
+    /* Create the parallax scrolling effect */
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Background image / height*/
+.parallax-window1{
+    /* The image used */
+    background-image: url("../images/JumpBeat_Background.png");
+    /* Set a specific height */
+    min-height: 36em;
+    padding-top: 5em;
+
+}
+
+/*Background image / height*/
+.parallax-window2{
+    /* The image used */
+    background-image: url("../images/audienceBackground.jpg");
+    /* Set a specific height */
+    min-height: 23em;
+    padding-top: 5em;
+
+}
+
+/*Background image / height*/
+.parallax-window3{
+    /* The image used */
+    background-color: black;
+    /* Set a specific height */
+    min-height: 16em;
+    padding-top: 5em;
+
+}
+
+
+/*text on parallax windows*/
+
+/*location div*/
+.caption{
+    position: absolute;
+    left: 0;
+    top: 32%;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+/*default desktop TEXT styles*/
+.caption span.text{
+    font-weight: 900;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: white;
+}
 
 /* ------ *******NAVBAR LOGO brand GLOBAL Styles********* ------- */
 
@@ -373,72 +438,6 @@ nav.smaller nav-link {
 
 
 
-/* -------************* PARALLAX *****************-------*/
-
-/*Main Parallax styles*/
-.parallax-window1, .parallax-window2, .parallax-window3, .parallax-window4{
-    /*font family*/
-    font-family: 'Spectral', serif;
-
-    /* Create the parallax scrolling effect */
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/*Background image / height*/
-.parallax-window1{
-    /* The image used */
-    background-image: url("../images/JumpBeat_Background.png");
-    /* Set a specific height */
-    min-height: 36em;
-    padding-top: 5em;
-
-}
-
-/*Background image / height*/
-.parallax-window2{
-    /* The image used */
-    background-image: url("../images/audienceBackground.jpg");
-    /* Set a specific height */
-    min-height: 23em;
-    padding-top: 5em;
-
-}
-
-/*Background image / height*/
-.parallax-window3{
-    /* The image used */
-    background-color: black;
-    /* Set a specific height */
-    min-height: 16em;
-    padding-top: 5em;
-
-}
-
-
-/*text on parallax windows*/
-
-/*location div*/
-.caption{
-    position: absolute;
-    left: 0;
-    top: 32%;
-    width: 100%;
-    text-align: center;
-
-
-}
-
-/*default desktop TEXT styles*/
-.caption span.text{
-    font-weight: 900;
-    font-size: 3em;
-    text-transform: uppercase;
-    color: white;
-}
 
 
 /* Portrait tablet to landscape and desktop */
@@ -587,75 +586,81 @@ nav.smaller nav-link {
 
 /* ------ *******Profile CSS********* ------- */
 
-.ch-info-wrap{
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    perspective: 800px;
-    transition: all 0.4s ease-in-out;
-    top: 20px;
-    left: 20px;
-    background: #f9f9f9 url(../images/bg.jpg);
-    box-shadow:
-            0 0 0 20px rgba(255,255,255,0.2),
-            inset 0 0 3px rgba(115,114, 23, 0.8);
 
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-circle {
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    transition: all 0.4s ease-in-out;
 }
 
-.ch-info > div {
-    display: block;
+
+/* This container is needed to position the front and back side */
+.flip-circle-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 50%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-circle:hover .flip-circle-inner {
+    transform: rotateY(-180deg);
+}
+
+/* Position the front and back side */
+.flip-circle-front, .flip-circle-back {
     position: absolute;
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-position: center center;
     backface-visibility: hidden;
 }
 
-.ch-info .ch-info-back {
-    transform: rotate3d(0,1,0,180deg);
-    background: #000;
+/* Style the front side (fallback if image is missing) */
+.flip-circle-front {
+    background-color: #bbb;
+    color: black;
 }
 
-
-.ch-img-1 {
-    background-image: url(../images/marcusHeadshotResize.png);
+/* Style the back side */
+.flip-circle-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(-180deg);
 }
 
-.ch-img-2 {
-    background-image: url(../images/11.jpg);
-}
-
-.ch-img-3 {
-    background-image: url(../images/12.jpg);
-}
-
-
-.ch-info h3 {
+.flip-circle-back h2 {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 14px;
-    margin: 0 15px;
-    padding: 40px 0 0 0;
-    height: 90px;
+    font-size: 22px;
+    margin: 0 30px;
+    padding: 55px 0 0 0;
+    height: 140px;
     font-family: 'Open Sans', Arial, sans-serif;
     text-shadow:
             0 0 1px #fff,
             0 1px 2px rgba(0,0,0,0.3);
 }
 
-.ch-info p {
+.flip-circle-back p {
     color: #fff;
     padding: 10px 5px;
     font-style: italic;
     margin: 0 30px;
     font-size: 12px;
     border-top: 1px solid rgba(255,255,255,0.5);
+
 }
 
-.ch-info p a {
+.flip-circle-back p a {
     display: block;
     color: rgba(255,255,255,0.7);
     font-style: normal;
@@ -667,20 +672,10 @@ nav.smaller nav-link {
     font-family: 'Open Sans', Arial, sans-serif;
 }
 
-.ch-info p a:hover {
+.flip-circle-back p a:hover {
     color: rgba(255,242,34, 0.8);
 }
 
-
-.ch-item:hover .ch-info-wrap {
-    box-shadow:
-            0 0 0 0 rgba(255,255,255,0.8),
-            inset 0 0 3px rgba(115,114, 23, 0.8);
-}
-
-.ch-item:hover .ch-info {
-    transform: rotate3d(0,1,0,-180deg);
-}
 
 
 /* ------ *******Carousel CSS********* ------- */
@@ -695,3 +690,5 @@ nav.smaller nav-link {
     width:100%;
     height:100%;
 }
+
+

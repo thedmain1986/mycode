@@ -225,7 +225,7 @@
 
 <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="js/classie.js"></script>
-<script src="js/copyText.js"></script>
+
 <script src="js/creative.min.js"></script>
 
 </body>
