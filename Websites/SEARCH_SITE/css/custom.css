@@ -1,0 +1,165 @@
+.containerPadding
+{
+    padding-top: 15px;
+
+}
+
+
+
+#footer
+{
+    background-color: #0a4e7d;
+}
+#footer h1{
+    color: red;
+}
+.tiny-top-buffer { margin-top:10px; }
+
+.top-buffer { margin-top:100px; }
+
+.bottom-buffer { margin-bottom:200px; }
+
+/*Table Css*/
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/* -------React.js-------*/
+
+.react-autosuggest__container {
+    font-family: 'Verdana';
+    background-color: #eee;
+    border-bottom-left-radius: 2;
+    border-bottom-right-radius: 2;
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    width: 300px;
+    z-index: 2;
+}
+
+.react-autosuggest__input {
+    width: 300px;
+    font-size: 20px;
+}
+
+.react-autosuggest__suggestions-section-suggestions {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.react-autosuggest__suggestion {
+    cursor: pointer;
+    overflow: hidden;
+    margin-left: -40px;
+    text-align: left;
+    font-size: 14px;
+    color: #111;
+    height: 70px;
+}
+
+.react-autosuggest__suggestion--focused {
+    background-color: #4A90E2;
+    color: #fff;
+}
+
+.searchResult-text {
+    line-height: 21px;
+    overflow: hidden;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.searchResult-image {
+    width: 40px;
+    height: 60px;
+    float: left;
+    margin-right: 8px;
+}
+
+.searchResult-name {
+    font-weight: bold;
+}
+
+.searchResult-link {
+    display: block;
+    padding: 5px;
+}
+
+
+/* -------Parallax-------*/
+
+    /*Background 1*/
+.parallax-container1{
+    height: 600px;
+    background: transparent;
+}
+.parallax-container1 > h1{
+    font-family: "GT Pressura","HelveticaNeue-CondensedBold",Impact,sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 40vh;
+    color: black;
+    text-rendering: optimizelegibility;
+    margin-top: .5em;
+}
+
+.background1 {
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../../OldSite/images/backgroundRecipe.jpg");/*background*/
+    background-origin: padding-box;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    margin: 0;
+    padding: 50px 0;
+}
+    /*Background 2*/
+.parallax-container2{
+    height: 400px;
+    background: transparent;
+}
+
+.parallax-container2 > h1{
+    font-family: 'Proza Libre', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 128px;
+}
+
+.background2{
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../../OldSite");/*background*/
+    background-origin: padding-box;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    margin: 0;
+    padding: 50px 0;
+}
+
+
+

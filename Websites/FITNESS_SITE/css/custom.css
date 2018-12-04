@@ -1,0 +1,447 @@
+
+/* ------ *******MAIN GLOBAL Styles********* ------- */
+
+body{
+    font-family: "GT Pressura","HelveticaNeue-CondensedBold",Impact,sans-serif;
+}
+
+.containerPadding
+{
+    padding-top: 15px;
+}
+
+.removeBodyPad{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+h6, .h6 {
+    font-family: 'Mali', cursive;
+    font-size: 1.5em;
+}
+
+
+
+
+/*--ABOUT----*/
+.smaller350{
+    max-width: 250px;
+}
+
+/*----RECIPES---*/
+
+
+
+/* --CONTACT Styles--*/
+.commentBox{
+    width: 300px;
+}
+
+/* --TESTIMONIALS-- */
+
+
+.testimonFont{
+    font-family: 'Sacramento', cursive ;
+    font-size: 1.5em;
+}
+
+.testimonFontSmall{
+    font-family: 'Sacramento', cursive ;
+    font-size: 1.25em;
+}
+
+/* ------ *******MAIN MEDIA QUERIES Styles********* ------- */
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+    h6, .h6 {
+
+        font-size: .75rem;
+    }
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+    h6, .h6 {
+
+        font-size: .5rem;
+    }
+}
+
+
+
+
+
+
+
+/* ------ *******FOOTER Styles********* ------- */
+#footerContact
+{
+    background: #000 none repeat scroll 0 0;
+    padding-top: 50px;
+}
+#footerContact h1{
+    color: red;
+}
+
+#footer{
+    background: #000 none repeat scroll 0 0;
+    min-height: 600px;
+    padding-bottom: 30px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 5;
+}
+.footerLogo{
+    padding: 36vh 0 24vh;
+}
+.footerLogo img{
+    max-width: 350px;
+    display: block;
+    margin: 20px auto;
+    width: auto;
+}
+#footer .footerLogo a{
+    border: 1px solid #666;
+    color: #fff;
+    display: inline-block;
+    font-family: 'Bungee', cursive;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 140px;
+}
+#footer .Right {
+    bottom: 20px;
+    position: absolute;
+    right: 30px;
+}
+
+#footer .Left {
+    bottom: 30px;
+    left: 30px;
+    position: absolute;
+    text-align: left;
+}
+#footer .SocialLinks{
+    margin-bottom: 8px;
+}
+#footer .SocialLinks a > i {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 20px;
+    color: #000;
+    display: inline-block;
+    font-size: 22px;
+    height: 40px;
+    line-height: 45px;
+    margin: 0 10px 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+}
+
+#footer .Left a{
+    font-family: 'Bungee', cursive;
+    font-size: 16px;
+    color: #F90C3E;
+}
+#footer .Left a:hover{
+    text-decoration: none;
+}
+
+/* ------ *******NAVBAR REGULAR Styles********* ------- */
+
+.nav > li > a {
+    color: #F90C3E !important;
+    font-size: 2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+}
+
+
+
+/* ------ *******NAVBAR LOGO brand GLOBAL Styles********* ------- */
+
+nav.smaller {
+    height: 55px;
+}
+
+nav.smaller a.navbar-brand > img {
+    width: 150px;
+    height: auto;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.nav.smaller nav a {
+    line-height: 75px;
+}
+
+/*Transistion Smaller*/
+a.navbar-brand > img{
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.navbar-brand > img {
+    height: 100%;
+    width: 350px;
+    padding: 7px 14px;
+}
+.navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    line-height: 20px;
+    height: auto;
+    width: auto;
+    max-height: 40px;
+    max-width: 30%;
+    overflow: visible;
+    padding: 0px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+
+/* ------ *******NAVBAR LOGO brand Responsive Styles********* ------- */
+
+
+/* Large desktop */
+@media (max-width: 1200px) {
+    .navbar-brand > img {
+        height: 100%;
+        width: 350px;
+        padding: 7px 14px;
+    }
+    .navbar-brand {
+        transform: translateX(-50%);
+        left: 50%;
+        position: absolute;
+        line-height: 20px;
+        height: auto;
+        width: auto;
+        max-height: 40px;
+        max-width: 30%;
+        overflow: visible;
+        padding: 0px;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+
+    }
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 979px) {
+    .navbar-brand > img {
+        height: 100%;
+        width: 350px;
+        padding: 7px 14px;
+    }
+    .navbar-brand {
+        transform: translateX(-50%);
+        left: 45%;
+        position: absolute;
+        line-height: 20px;
+        height: auto;
+        width: auto;
+        max-height: 40px;
+        max-width: 30%;
+        overflow: visible;
+        padding: 0px;
+
+
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+    .navbar-brand > img {
+        height: 100%;
+        width: 250px;
+        padding: 7px 14px;
+    }
+    .navbar-brand {
+        transform: translateX(-50%);
+        left: 43%;
+        position: absolute;
+        line-height: 20px;
+        height: auto;
+        width: auto;
+        max-height: 40px;
+        max-width: 30%;
+        overflow: visible;
+        padding: 0px;
+
+
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .navbar-brand > img {
+        height: 100%;
+        width: 200px;
+        padding: 7px 14px;
+    }
+    .navbar-brand {
+        transform: translateX(-40%);
+        left: 43%;
+        position: absolute;
+        line-height: 20px;
+        height: auto;
+        width: auto;
+        max-height: 40px;
+        max-width: 30%;
+        overflow: visible;
+        padding: 0px;
+
+
+    }
+}
+
+
+/* -------************* PARALLAX *****************-------*/
+
+/*Main Parallax styles*/
+.parallax-window1, .parallax-window2, .parallax-window3, .parallax-window4{
+    /*font family*/
+    font-family: 'Spectral', serif;
+
+    /* Create the parallax scrolling effect */
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Background image / height*/
+.parallax-window1{
+    /* The image used */
+    background-image: url("../images/aboutBackground.jpg");
+    /* Set a specific height */
+    min-height: 40em;
+}
+.parallax-window2{
+    background-image: url("../images/recipeBackground.jpg");
+    min-height: 40em;
+}
+.parallax-window3{
+    background-image: url("../images/storiesBackground.jpg");
+    min-height: 40em;
+}
+
+.textBlack{
+    color:black!important;
+}
+
+/*location div*/
+.caption{
+    position: absolute;
+    left: 0;
+    top: 32%;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+/*default desktop TEXT styles*/
+.caption span.text{
+    font-weight: 900;
+    font-size: 7em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.backgroundTestimonial{
+
+    padding:12px;
+    background-color: #111;
+    border-radius: 25px;
+}
+
+
+
+/*Media queries for mobile and text*/
+
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px)  {
+    .parallax-window1, .parallax-window2, .parallax-window3  {
+        background-attachment: scroll;
+        min-height: 25em;
+    }
+    .caption{
+        top: 35%;
+    }
+    .caption span.text{
+        font-weight: 900;
+        font-size: 6em;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+    .parallax-window1, .parallax-window2, .parallax-window3   {
+        background-attachment: scroll;
+        min-height: 20em;
+    }
+    .caption span.text{
+        font-weight: 900;
+        font-size: 2em;
+    }
+    .caption{
+        top: 40%;
+    }
+}
+
+
+
+
+
+
+/*Media Queries example*/
+
+/* Large desktop */
+@media (max-width: 1200px) {
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 979px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}

@@ -1,0 +1,105 @@
+.about-container{
+    padding-top:1rem;
+    padding-bottom:1em;
+
+    overflow: hidden;
+
+}
+.awardsContainer{
+    padding-top: 5em!important;
+    padding-bottom: 5em!important;
+}
+.dev-icons {
+    font-size: 3rem;
+}
+.fa-small{
+    font-size: 18px;
+}
+
+.fa-ul{
+    display: block;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Spectral', serif;
+    font-weight: 700;
+}
+
+header.masthead2
+{
+    padding-top:10rem;
+    padding-bottom:calc(10rem - 56px);
+    background-color:#181818;
+    background-position:center center;
+    background-size:cover;
+}
+nav.navbar-dark{
+    background-color:#181818 !important;
+}
+.portfolio-item{
+    marigin: 5px;
+}
+.resume-sections{
+    background-color: #0c5460;
+}
+.section2{
+    padding:4rem 0 !important;
+}
+.section3{
+     padding:1rem 0 !important;
+}
+
+.section4{
+    padding:0 !important;
+}
+
+.masthead3{
+    background-image: url("/img/codeBack.jpg");
+}
+
+.portfolio-item{
+    padding-top: 5px;
+}
+
+
+/* -------Parallax-------*/
+
+/*Background 1*/
+.parallax-container1{
+    font-family: 'Spectral', serif;
+    /* The image used */
+    background-image: url("../img/maroonBellsFall.jpg");
+
+    /* Set a specific height */
+    min-height: 800px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.captionHello {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+span.border{
+    color: #FFFFFF;
+    font-size: 4em !important;
+    font-weight: 700;
+    background-color: #15151578;
+    padding: 12px;
+    border-radius:.55rem!important;
+    border: none !important;
+
+}
+
+
