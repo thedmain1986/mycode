@@ -53,45 +53,29 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link text-uppercase" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-uppercase" href="http://jumpbeatproject.org">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link text-uppercase" href="#mission">Mission</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link d-block d-md-none d-lg-none d-xl-none" href="#contact">CONTACT US</a>
+                <a class="nav-link d-block d-md-none d-lg-none d-xl-none" href="contact.php">CONTACT US</a>
             </li>
-<!--            <li class="nav-item dropdown">-->
-<!--                <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>-->
-<!--                <div class="dropdown-menu" aria-labelledby="dropdown01">-->
-<!--                    <a class="dropdown-item" href="#">Action</a>-->
-<!--                    <a class="dropdown-item" href="#">Another action</a>-->
-<!--                    <a class="dropdown-item" href="#">Something else here</a>-->
-<!--                </div>-->
-<!--            </li>-->
-
         </ul>
-
     </div>
-
-
         <div class="contactWrapper d-none d-md-block ">
             <ul class="list-inline m-0 ">
-                <li class="text-white pt-2"><a href="#contact">CONTACT US</a></li>
-                <li class="header-info align-center  "><button id="p1" class="btn btn-outline-danger btn-sm align-content-center" onclick="copyToClipboard('#p1')" >720-607-9406</button></li>
-
+                <li class="text-white pt-2"><a href="contact.php">CONTACT US</a></li>
+                <li class="header-info align-center  "><a href="tel:17206079406">720-607-9406</a></li></li>
                 <li><a href="https://twitter.com/JumpBeatProject" target="_blank" ><i class="fa fa-twitter fa-2x whiteText" aria-hidden="true"></i></a></li>
                 <li> <a href="https://www.facebook.com/jumpbeatproject/"  ><i class="fa fa-facebook fa-2x whiteText " aria-hidden="true"></i></a></li>
                 <li> <a href="https://www.instagram.com/jumpbeatproject/" target="_blank" ><i class="fa fa-instagram fa-2x whiteText" aria-hidden="true"></i></a></li>
-
             </ul>
         </div>
+</nav><!--end nav-->
 
-
-</nav>
 
 <div class="container-fluid no-gutters no-margin p-0">
 <!--About Transition Background-->
@@ -200,7 +184,7 @@
             <div class="col-3"></div>
             <div class="col-6">
                 <img class="img-fluid" src="images/JumpBeatLogo_V4.png">
-                <h3 class=" socialWhite mt-3">General Inquiries</h3>
+
                 <h3 class=" socialWhite"><a href="tel:+17206079406">720-607-9406</a></h3>
                 <h5 class="socialWhite"><a href="mailto:info@jumpbeatproject.org">info@jumpbeatproject.org</a></h5>
             </div>
@@ -208,24 +192,7 @@
         </div>
 
 
-    <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-    <div class="row pt-5 footerDownsize">
-        <div class="col-12 col-md-4 text-right no-gutters socialWhite">
-            <h3 class=" socialWhite">Executive Director</h3>
-            <h5 class=" socialWhite">Marcus Maltz</h5>
-            <h5 class="socialWhite"><a href="mailto:marcus@jumpbeatproject.org">marcus@jumpbeatproject.org</a></h5>
-        </div>
-        <div class="col-12 col-md-4 no-gutters socialWhite">
-            <h3 class=" socialWhite">Project Director</h3>
-            <h5 class=" socialWhite">Lindsey Schmalz</h5>
-            <h5 class="socialWhite"><a href="mailto:lindsey@jumpbeatproject.org">lindsey@jumpbeatproject.org</a></h5>
-        </div>
-        <div class="col-12 col-md-4  text-left no-gutters socialWhite">
-            <h3 class=" socialWhite">Creative Director</h3>
-            <h5 class="socialWhite">Derrick Jones</h5>
-            <h5 class="socialWhite" ><a href="mailto:derrick@jumpbeatproject.org">derrick@jumpbeatproject.org</a></h5>
-        </div>
-    </div>
+
 
 
 
