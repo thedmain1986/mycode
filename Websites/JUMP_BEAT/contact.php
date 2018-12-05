@@ -45,7 +45,7 @@
 <body>
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top mr-0">
-    <a class="ml-5 navbar-brand" href="#"><img alt="Jump Beat Project" src="images/JumpBeatLogo_V4_resize.png" alt="Jump Beat Project"></a>
+    <a class="ml-5 navbar-brand" href="http://jumpbeatproject.org/"><img alt="Jump Beat Project" src="images/JumpBeatLogo_V4_resize.png" alt="Jump Beat Project"></a>
 
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,7 +70,7 @@
             <li class="text-white h-100 justify-content-center align-items-center"><a href="contact.php">CONTACT US</a></li>
             <li class="header-info align-center  "><a href="tel:17206079406">720-607-9406</a></li></li>
             <li><a href="https://twitter.com/JumpBeatProject" target="_blank" ><i class="fa fa-twitter fa-2x whiteText" aria-hidden="true"></i></a></li>
-            <li> <a href="https://www.facebook.com/jumpbeatproject/"  ><i class="fa fa-facebook fa-2x whiteText " aria-hidden="true"></i></a></li>
+            <li> <a href="https://www.facebook.com/jumpbeatproject/"  target="_blank"><i class="fa fa-facebook fa-2x whiteText " aria-hidden="true"></i></a></li>
             <li> <a href="https://www.instagram.com/jumpbeatproject/" target="_blank" ><i class="fa fa-instagram fa-2x whiteText" aria-hidden="true"></i></a></li>
         </ul>
     </div>
@@ -95,9 +95,9 @@
         </div>
         <div class="carousel-item">
             <picture>
-                <source srcset="images/carousel/teamDinnerRESIZE.jpg" media="(min-width: 769px)">
-                <source srcset="images/carousel/ticketflyTicket800x500.jpg" media="(min-width: 577px)">
-                <img srcset="images/carousel/teamDinner600x500.jpg" alt="responsive image" class="d-block img-fluid">
+                <source srcset="images/carousel/groupCookRESIZE.jpg" media="(min-width: 769px)">
+                <source srcset="images/carousel/groupCook800x500.jpg" media="(min-width: 577px)">
+                <img srcset="images/carousel/groupCook600x500.jpg" alt="responsive image" class="d-block img-fluid">
             </picture>
         </div>
     </div>
@@ -121,15 +121,18 @@
 </div>
 
 
-<div class="container-fluid">
+<div class="container-fluid backgroundBlack pt-5 pb-5 ">
+
+
     <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-    <div class="row text-center mt-5 mb-5">
+    <div class="row text-center backgroundBlack">
+
         <div class="col-12 col-md-4 ">
             <div class="flip-circle-wrapper">
                 <div class="flip-circle mx-auto">
                     <div class="flip-circle-inner">
                         <div class="flip-circle-front">
-                            <img  class="img-fluid rounded-circle" src="images/marcusHeadshotResize.png" alt="Marcus" >
+                            <img  class="img-fluid rounded-circle" src="images/marcusHeadshotResize.jpg" alt="Marcus" >
                         </div>
                         <div class="flip-circle-back">
                             <h2>Marcus</h2>
@@ -138,25 +141,23 @@
                     </div>
                 </div>
             </div>
+            <h3 class="mt-4 text-white">Executive Director</h3>
+            <h5 class="text-white">Marcus Maltz</h5>
+            <h5><a href="mailto:marcus@jumpbeatproject.org">marcus@jumpbeatproject.org</a></h5>
+        </div>
 
 
-
-
-            <h3 class="mt-4 ">Executive Director</h3>
-            <h5 class=" ">Marcus Maltz</h5>
-            <h5 class=""><a href="mailto:marcus@jumpbeatproject.org">marcus@jumpbeatproject.org</a></h5>
+        <div class="col-12 col-md-4">
+            <img class="img-fluid rounded-circle" src="images/lindseyHeadshotResize.jpg"/>
+            <h3 class="mt-4 text-white">Project Director</h3>
+            <h5 class="text-white">Lindsey Schmalz</h5>
+            <h5><a href="mailto:lindsey@jumpbeatproject.org">lindsey@jumpbeatproject.org</a></h5>
         </div>
         <div class="col-12 col-md-4">
-            <img class="img-fluid rounded-circle" src="images/lindseyHeadshotResize.png"/>
-            <h3 class=" mt-4 ">Project Director</h3>
-            <h5 class=" ">Lindsey Schmalz</h5>
-            <h5 class=""><a href="mailto:lindsey@jumpbeatproject.org">lindsey@jumpbeatproject.org</a></h5>
-        </div>
-        <div class="col-12 col-md-4">
-            <img class="img-fluid rounded-circle" src="images/derrickHeadshotResize.png"/>
-            <h3 class=" mt-4 ">Creative Director</h3>
-            <h5 class="">Derrick Jones</h5>
-            <h5 class="" ><a href="mailto:derrick@jumpbeatproject.org">derrick@jumpbeatproject.org</a></h5>
+            <img class="img-fluid rounded-circle" src="images/derrickHeadshotResize.jpg"/>
+            <h3 class="mt-4 text-white">Creative Director</h3>
+            <h5 class="text-white">Derrick Jones</h5>
+            <h5><a href="mailto:derrick@jumpbeatproject.org">derrick@jumpbeatproject.org</a></h5>
         </div>
     </div>
 </div>
@@ -187,7 +188,7 @@
             <div class="SocialLinks">
 
                 <a href="https://twitter.com/JumpBeatProject" target="_blank" ><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a>
-                <a href="https://www.facebook.com/jumpbeatproject/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/jumpbeatproject/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
                 <a href="https://www.instagram.com/jumpbeatproject/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
 
             </div>

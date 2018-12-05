@@ -19,6 +19,12 @@ body {
     font-family: 'JosefinSans-Regular', sans-serif !important;
 
 }
+
+.backgroundBlack{
+    background-color: black;
+
+}
+
 .starter-template {
     padding: 3rem 1.5rem;
     text-align: center;
@@ -248,7 +254,7 @@ li{
 /*Background image / height*/
 .parallax-window1{
     /* The image used */
-    background-image: url("../images/JumpBeat_Background.png");
+    background-image: url("../images/JumpBeat_BackgroundRESIZE.jpg");
     /* Set a specific height */
     min-height: 36em;
     padding-top: 5em;
@@ -258,7 +264,7 @@ li{
 /*Background image / height*/
 .parallax-window2{
     /* The image used */
-    background-image: url("../images/audienceBackground.jpg");
+    background-image: url("../images/audienceBackgroundRESIZE.jpg");
     /* Set a specific height */
     min-height: 23em;
     padding-top: 5em;
@@ -593,8 +599,16 @@ nav.smaller nav-link {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-    transition: all 0.4s ease-in-out;
+
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -o-perspective:1000;
+    -ms-perspective: 1000;
+    perspective: 1000; /* Remove this if you don't want the 3D effect */
+
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
 }
 
 
@@ -605,12 +619,16 @@ nav.smaller nav-link {
     height: 100%;
     text-align: center;
     border-radius: 50%;
+
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-circle:hover .flip-circle-inner {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
 }
 
@@ -620,6 +638,10 @@ nav.smaller nav-link {
     width: 100%;
     height: 100%;
     border-radius: 50%;
+
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
     backface-visibility: hidden;
 }
 
@@ -633,6 +655,9 @@ nav.smaller nav-link {
 .flip-circle-back {
     background-color: dodgerblue;
     color: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
 }
 
@@ -645,9 +670,7 @@ nav.smaller nav-link {
     padding: 55px 0 0 0;
     height: 140px;
     font-family: 'Open Sans', Arial, sans-serif;
-    text-shadow:
-            0 0 1px #fff,
-            0 1px 2px rgba(0,0,0,0.3);
+    text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0,0,0,0.3);
 }
 
 .flip-circle-back p {

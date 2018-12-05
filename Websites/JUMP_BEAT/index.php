@@ -26,7 +26,6 @@
     <meta name="theme-color" content="#ffffff">
 
 
-
     <!-- Bootstrap core CSS -->
     <link href="css/boostrap/bootstrap.min.css" rel="stylesheet">
 
@@ -45,7 +44,7 @@
 <body>
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top mr-0">
-    <a class="ml-5 navbar-brand" href="#"><img alt="Jump Beat Project" src="images/JumpBeatLogo_V4_resize.png" alt="Jump Beat Project"></a>
+    <a class="ml-5 navbar-brand" href="http://jumpbeatproject.org/"><img alt="Jump Beat Project" src="images/JumpBeatLogo_V4_resize.png" alt="Jump Beat Project"></a>
 
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,7 +69,7 @@
                 <li class="text-white pt-2"><a href="contact.php">CONTACT US</a></li>
                 <li class="header-info align-center  "><a href="tel:17206079406">720-607-9406</a></li></li>
                 <li><a href="https://twitter.com/JumpBeatProject" target="_blank" ><i class="fa fa-twitter fa-2x whiteText" aria-hidden="true"></i></a></li>
-                <li> <a href="https://www.facebook.com/jumpbeatproject/"  ><i class="fa fa-facebook fa-2x whiteText " aria-hidden="true"></i></a></li>
+                <li> <a href="https://www.facebook.com/jumpbeatproject/"  target="_blank"><i class="fa fa-facebook fa-2x whiteText " aria-hidden="true"></i></a></li>
                 <li> <a href="https://www.instagram.com/jumpbeatproject/" target="_blank" ><i class="fa fa-instagram fa-2x whiteText" aria-hidden="true"></i></a></li>
             </ul>
         </div>
@@ -100,7 +99,7 @@
 
 
             <div class="col-4">
-                <img src="images/Kid_Art.jpg" class="img-fluid rounded-circle imgCircleAdjust zoom mb-3">
+                <img src="images/Kid_ArtRESIZE.jpg" class="img-fluid rounded-circle imgCircleAdjust zoom mb-3">
                 <div class="col-12">
                     <h3> Art</h3>
                 </div>
@@ -110,7 +109,7 @@
             </div>
 
             <div class="col-4">
-                <img src="images/Kid_Instrument.jpg" class="img-fluid rounded-circle imgCircleAdjust zoom mb-3">
+                <img src="images/Kid_InstrumentRESIZE.jpg" class="img-fluid rounded-circle imgCircleAdjust zoom mb-3">
                 <div class="col-12">
                     <h3 class="text-truncate"> Music</h3>
                 </div>
@@ -132,7 +131,7 @@
     <!--About Transition Background-->
     <div class="parallax-window2">
         <div class="caption">
-            <span class="text" id="about"></span>
+            <span class="text" id=""></span>
         </div>
     </div>
 </div>
@@ -146,7 +145,7 @@
         <div class="row ">
             <div class="col-1"></div>
             <div class="col-5 ">
-                <img src="images/square_Jump_Beat.png" alt="Jump Beat Project - Fox Theatre " class="img-fluid rounded" >
+                <img src="images/square_Jump_Beat.jpg" alt="Jump Beat Project - Fox Theatre " class="img-fluid rounded" >
             </div>
             <div class="col-4  ">
                 <div class="row textHeadings">
@@ -201,7 +200,7 @@
                 <div class="SocialLinks">
 
                     <a href="https://twitter.com/JumpBeatProject" target="_blank" ><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a>
-                    <a href="https://www.facebook.com/jumpbeatproject/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/jumpbeatproject/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
                     <a href="https://www.instagram.com/jumpbeatproject/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
 
                 </div>
