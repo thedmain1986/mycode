@@ -148,13 +148,39 @@
 
 
         <div class="col-12 col-md-4">
-            <img class="img-fluid rounded-circle" src="images/lindseyHeadshotResize.jpg"/>
+            <div class="flip-circle-wrapper">
+                <div class="flip-circle mx-auto">
+                    <div class="flip-circle-inner">
+                        <div class="flip-circle-front">
+                            <img  class="img-fluid rounded-circle" src="images/lindseyHeadshotResize.jpg" alt="Lindsey" >
+                        </div>
+                        <div class="flip-circle-back">
+                            <h2>Lindsey</h2>
+                            <p>Project Director <a href="mailto:lindsey@jumpbeatproject.org">lindsey@jumpbeatproject.org</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <h3 class="mt-4 text-white">Project Director</h3>
             <h5 class="text-white">Lindsey Schmalz</h5>
             <h5><a href="mailto:lindsey@jumpbeatproject.org">lindsey@jumpbeatproject.org</a></h5>
         </div>
+
+
         <div class="col-12 col-md-4">
-            <img class="img-fluid rounded-circle" src="images/derrickHeadshotResize.jpg"/>
+            <div class="flip-circle-wrapper">
+                <div class="flip-circle mx-auto">
+                    <div class="flip-circle-inner">
+                        <div class="flip-circle-front">
+                            <img  class="img-fluid rounded-circle" src="images/derrickHeadshotResize.jpg" alt="Derrick" >
+                        </div>
+                        <div class="flip-circle-back">
+                            <h2>Derrick</h2>
+                            <p>Project Director <a href="mailto:derrick@jumpbeatproject.org">derrick@jumpbeatproject.org</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <h3 class="mt-4 text-white">Creative Director</h3>
             <h5 class="text-white">Derrick Jones</h5>
             <h5><a href="mailto:derrick@jumpbeatproject.org">derrick@jumpbeatproject.org</a></h5>

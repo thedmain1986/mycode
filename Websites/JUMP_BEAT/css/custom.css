@@ -478,6 +478,24 @@ nav.smaller nav-link {
 }
 
 
+/* MOBILE*/
+@media (max-width: 599px) {
+    .parallax-window3   {
+        background-attachment: scroll;
+        min-height: 15em;
+    }
+    .caption span.text{
+        font-weight: 900;
+        font-size: 2em;
+    }
+    .caption{
+        top: 40%;
+    }
+}
+
+
+
+
 /* ------ *******FOOTER Styles********* ------- */
 
 #footer{
@@ -609,6 +627,9 @@ nav.smaller nav-link {
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+
 }
 
 
@@ -621,6 +642,11 @@ nav.smaller nav-link {
     border-radius: 50%;
 
     transition: transform 0.8s;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
 
@@ -629,6 +655,7 @@ nav.smaller nav-link {
     -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
     -o-transform: rotateY(-180deg);
+    -ms-transform-style: rotateY(-180deg);
     transform: rotateY(-180deg);
 }
 
@@ -655,9 +682,12 @@ nav.smaller nav-link {
 .flip-circle-back {
     background-color: dodgerblue;
     color: white;
+
+
     -webkit-transform: rotateY(-180deg);
     -moz-transform: rotateY(-180deg);
     -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
 }
 
