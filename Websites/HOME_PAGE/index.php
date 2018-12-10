@@ -142,7 +142,7 @@
         <div class="row">
             <div class="col-lg-4 col-6 portfolio-item text-center">
                 <div class="card h-100">
-                    <a href="http://djsimaginarium.com/cms/" target="_blank"><img class="card-img-top" src="img/1.jpg" alt=""></a>
+                    <a href="http://djsimaginarium.com/cms/" target="_blank"><img class="card-img-top" src="img/1RESIZE.jpg" alt=""></a>
                     <div class="card-body d-flex flex-column">
                         <h4 class="card-title">
                             <p>Forum CMS</p>
@@ -154,7 +154,7 @@
             </div>
             <div class="col-lg-4 col-6 portfolio-item text-center">
                 <div class="card h-100">
-                    <a href="http://djsimaginarium.com/fitness/" target="_blank"><img class="card-img-top" src="img/2.jpg" alt=""></a>
+                    <a href="http://djsimaginarium.com/fitness/" target="_blank"><img class="card-img-top" src="img/2RESIZE.jpg" alt=""></a>
                     <div class="card-body d-flex flex-column">
                         <h4 class="card-title">
                             <p>Fitness Website</p>
@@ -166,28 +166,30 @@
             </div>
             <div class="col-lg-4 col-6 portfolio-item text-center">
                 <div class="card h-100">
-                    <a href="http://djsimaginarium.com/search/" target="_blank"><img class="card-img-top" src="img/3.jpg" alt=""></a>
+                    <a href="http://djsimaginarium.com/jumpbeat/" target="_blank"><img class="card-img-top" src="img/Square_Jump_Beat350x350.jpg" alt=""></a>
                     <div class="card-body d-flex flex-column">
                         <h4 class="card-title">
-                            <p class="text-center">Media Search</p>
+                            <p class="text-center">Jump Beat Project</p>
                         </h4>
-                        <p class="card-text">Quick Media Search Across Multiple Platforms</p>
+                        <p class="card-text">Non-Profit Website</p>
                         <a href="http://djsimaginarium.com/search/" target="_blank" class="btn-sm btn-primary text-center mt-auto ">Check it out</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-6 portfolio-item text-center">
-                <div class="card h-100">
-                    <a href="#" target="_blank"><img class="card-img-top" src="img/BassDrop_2018_Rework_FINAL.jpg" alt=""></a>
-                    <div class="card-body d-flex flex-column">
-                        <h4 class="card-title">
-                            <p class="text-center">Concert Poster</p>
-                        </h4>
-                        <p class="card-text">JumpBeat and 720Graphix Poster</p>
-                        <a href="#" target="_blank" class="btn-sm btn-primary text-center mt-auto ">Check it out</a>
-                    </div>
-                </div>
-            </div>
+
+
+<!--            <div class="col-lg-4 col-6 portfolio-item text-center">-->
+<!--                <div class="card h-100">-->
+<!--                    <a href="#" target="_blank"><img class="card-img-top" src="img/BassDrop_2018_Rework_FINAL.jpg" alt=""></a>-->
+<!--                    <div class="card-body d-flex flex-column">-->
+<!--                        <h4 class="card-title">-->
+<!--                            <p class="text-center">Concert Poster</p>-->
+<!--                        </h4>-->
+<!--                        <p class="card-text">JumpBeat and 720Graphix Poster</p>-->
+<!--                        <a href="#" target="_blank" class="btn-sm btn-primary text-center mt-auto ">Check it out</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
 
         </div>
     </div>
