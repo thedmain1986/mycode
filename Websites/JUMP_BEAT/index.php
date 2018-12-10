@@ -95,10 +95,10 @@
         <h3 class="no-margin mb-2 "> We are a collective of visionaries with a goal to enrich our communities through art & music. The Jump Beat Project is a non-profit organization that funds local outreach programs for underprivileged youth. Be a part of this ever expanding adventure & come contribute to the movement!!</h3>
 
         <div class="row causeRowPadding">
-            <div class="col-2"></div>
+            <div class="col-md-2"></div>
 
 
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 <img src="images/Kid_ArtRESIZE.jpg" class="img-fluid rounded-circle imgCircleAdjust zoom mb-3">
                 <div class="col-12">
                     <h3> Art</h3>
@@ -108,7 +108,7 @@
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 <img src="images/Kid_InstrumentRESIZE.jpg" class="img-fluid rounded-circle imgCircleAdjust zoom mb-3">
                 <div class="col-12">
                     <h3 class="text-truncate"> Music</h3>
@@ -118,7 +118,7 @@
                 </div>
             </div>
 
-            <div class="col-2 "></div>
+            <div class="col-md-2 "></div>
             <div class="col-12 mb-1 mt-5"></div>
 
         </div>
