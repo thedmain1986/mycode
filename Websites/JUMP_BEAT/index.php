@@ -67,7 +67,7 @@
         <div class="contactWrapper d-none d-md-block ">
             <ul class="list-inline m-0 ">
                 <li class="text-white pt-2"><a href="contact.php">CONTACT US</a></li>
-                <li class="header-info align-center  "><a href="tel:17206079406">720-607-9406</a></li></li>
+                <li class="header-info align-center  "><a href="tel:17205302806">720-530-2806</a></li></li>
                 <li><a href="https://twitter.com/JumpBeatProject" target="_blank" ><i class="fa fa-twitter fa-2x whiteText" aria-hidden="true"></i></a></li>
                 <li> <a href="https://www.facebook.com/jumpbeatproject/"  target="_blank"><i class="fa fa-facebook fa-2x whiteText " aria-hidden="true"></i></a></li>
                 <li> <a href="https://www.instagram.com/jumpbeatproject/" target="_blank" ><i class="fa fa-instagram fa-2x whiteText" aria-hidden="true"></i></a></li>
@@ -78,7 +78,7 @@
 
 <div class="container-fluid no-gutters no-margin p-0">
 <!--About Transition Background-->
-    <div class="parallax-window1">
+    <div class="parallax-window1" >
         <div class="caption">
             <span class="text" id="about"></span>
         </div>
@@ -86,44 +86,44 @@
 </div>
 
 
-<main role="main" class="cause " class="container-fluid" id="mission">
+<main role="main" class="cause " class="container-fluid" id="mission" >
+    <div class="row no-gutters ">
+        <div class="cause text-center causeWrapper">
+            <hr>
+            <h1 class="text-uppercase mt-3 ">Our Mission</h1>
+            <hr class="mb-5">
+            <h3 class="offset-1 col-10  mb-2 line-height"> We are a collective of visionaries with a goal to enrich our communities through art & music. The Jump Beat Project is a non-profit organization that funds local outreach programs for underprivileged youth. Be a part of this ever expanding adventure & come contribute to the movement!!</h3>
 
-    <div class="cause text-center causeWrapper">
-        <hr>
-        <h1 class="text-uppercase mt-3">Our Mission</h1>
-        <hr class="mb-5">
-        <h3 class="no-margin mb-2 "> We are a collective of visionaries with a goal to enrich our communities through art & music. The Jump Beat Project is a non-profit organization that funds local outreach programs for underprivileged youth. Be a part of this ever expanding adventure & come contribute to the movement!!</h3>
-
-        <div class="row causeRowPadding">
-            <div class="col-md-2"></div>
+            <div class="row causeRowPadding">
+                <div class="col-md-2"></div>
 
 
-            <div class="col-12 col-md-4">
-                <img src="images/Kid_ArtRESIZE.jpg" class="img-fluid rounded-circle imgCircleAdjust zoom mb-3">
-                <div class="col-12">
-                    <h3> Art</h3>
+                <div class="col-12 col-md-4">
+                    <img src="images/Kid_ArtRESIZE.jpg" class="img-fluid rounded-circle imgCircleAdjust zoom mb-3">
+                    <div class="col-12">
+                        <h3> Art</h3>
+                    </div>
+                    <div class="offset-2 offset-md-0 col-8 col-md-12">
+                        <h6 >Helping Kids To Grow Through Self Expression And Interactive Art</h6>
+                    </div>
                 </div>
-                <div class="col-12">
-                    <h6 >Helping Kids To Grow Through Self Expression And Interactive Art</h6>
+
+                <div class="col-12 col-md-4">
+                    <img src="images/Kid_InstrumentRESIZE.jpg" class="img-fluid rounded-circle imgCircleAdjust zoom mb-3">
+                    <div class="col-12">
+                        <h3 class="text-truncate"> Music</h3>
+                    </div>
+                    <div class="offset-2 offset-md-0 col-8 col-md-12">
+                        <h6 >Giving Kids An Opportunity To Learn and Embrace New Skills Through Music</h6>
+                    </div>
                 </div>
+
+                <div class="col-md-2 "></div>
+                <div class="col-12 mb-1 mt-5"></div>
+
             </div>
-
-            <div class="col-12 col-md-4">
-                <img src="images/Kid_InstrumentRESIZE.jpg" class="img-fluid rounded-circle imgCircleAdjust zoom mb-3">
-                <div class="col-12">
-                    <h3 class="text-truncate"> Music</h3>
-                </div>
-                <div class="col-12">
-                    <h6 >Giving Kids An Opportunity To Learn and Embrace New Skills Through Music</h6>
-                </div>
-            </div>
-
-            <div class="col-md-2 "></div>
-            <div class="col-12 mb-1 mt-5"></div>
-
         </div>
     </div>
-
 </main><!-- /.container -->
 
 <!--parallax 2-->
@@ -142,12 +142,13 @@
         <hr>
         <h1 class="text-uppercase mt-3">Events</h1>
         <hr class="mb-5">
-        <div class="row ">
-            <div class="col-1"></div>
-            <div class="col-5 ">
+        <div class="row  no-gutters">
+
+            <div class="offset-2 offset-md-2  col-8 mr-auto col-lg-4 ">
                 <img src="images/square_Jump_Beat.jpg" alt="Jump Beat Project - Fox Theatre " class="img-fluid rounded" >
             </div>
-            <div class="col-4  ">
+
+            <div class="offset-2 offset-lg-0 col-8 col-lg-4 mr-auto mt-5">
                 <div class="row textHeadings">
                     <div class="col-12 align-middle">
                         <h3>JUMP BEAT PROJECT PRESENTS: FUNK FOR A CAUSE</h3>
@@ -179,12 +180,12 @@
 
 <div id="footer">
 
-        <div class="row footerLogo footerDownsize" id="contact">
+        <div class="row no-gutters footerLogo footerDownsize" id="contact">
             <div class="col-3"></div>
             <div class="col-6">
                 <img class="img-fluid" src="images/JumpBeatLogo_V4.png">
 
-                <h3 class=" socialWhite"><a href="tel:+17206079406">720-607-9406</a></h3>
+                <h3 class=" socialWhite"><a href="tel:+17205302806">720-530-2806</a></h3>
                 <h5 class="socialWhite"><a href="mailto:info@jumpbeatproject.org">info@jumpbeatproject.org</a></h5>
             </div>
             <div class="col-3"></div>
@@ -195,7 +196,7 @@
 
 
 
-        <div class="row pt-5">
+        <div class="row no-gutters pt-5">
             <div class="col-12">
                 <div class="SocialLinks">
 
@@ -220,12 +221,8 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="js/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-
-<script src="js/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="js/classie.js"></script>
-
-<script src="js/creative.min.js"></script>
+<script src="js/bootstrap/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

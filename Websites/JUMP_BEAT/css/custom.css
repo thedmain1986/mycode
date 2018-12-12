@@ -24,6 +24,14 @@ body {
     background-color: black;
 
 }
+html{
+    scroll-behavior:smooth;
+}
+
+
+.line-height{
+    line-height: 1.5;
+}
 
 .starter-template {
     padding: 3rem 1.5rem;
@@ -97,12 +105,7 @@ hr {
     }
 
 
-    .textHeadings h5{
-        font-size:11px;
-    }
-    .textHeadings h3{
-        font-size:13px;
-    }
+
 }
 
 @media (min-width: 900px) {
@@ -113,10 +116,10 @@ hr {
 
 
     .textHeadings h5{
-        font-size:11px;
+        font-size: 1.1em !important;
     }
     .textHeadings h3{
-        font-size:13px;
+        font-size: 1.5em !important;
     }
 }
 

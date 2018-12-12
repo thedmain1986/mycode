@@ -58,7 +58,7 @@
                 <a class="nav-link text-uppercase" href="http://jumpbeatproject.org">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-uppercase" href="#mission">Mission</a>
+                <a class="nav-link text-uppercase" href="index.php#mission">Mission</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link d-block d-md-none d-lg-none d-xl-none" href="contact.php">CONTACT US</a>
@@ -68,7 +68,7 @@
     <div class="contactWrapper d-none d-md-block ">
         <ul class="list-inline m-0 ">
             <li class="text-white h-100 justify-content-center align-items-center"><a href="contact.php">CONTACT US</a></li>
-            <li class="header-info align-center  "><a href="tel:17206079406">720-607-9406</a></li></li>
+            <li class="header-info align-center  "><a href="tel:17205302806">720-530-2806</a></li></li>
             <li><a href="https://twitter.com/JumpBeatProject" target="_blank" ><i class="fa fa-twitter fa-2x whiteText" aria-hidden="true"></i></a></li>
             <li> <a href="https://www.facebook.com/jumpbeatproject/"  target="_blank"><i class="fa fa-facebook fa-2x whiteText " aria-hidden="true"></i></a></li>
             <li> <a href="https://www.instagram.com/jumpbeatproject/" target="_blank" ><i class="fa fa-instagram fa-2x whiteText" aria-hidden="true"></i></a></li>
@@ -88,16 +88,23 @@
         </div>
        <div class="carousel-item">
            <picture>
-               <source srcset="images/carousel/christmasFireRESIZE.jpg" media="(min-width: 769px)">
-               <source srcset="images/carousel/christmasFire800x500.jpg" media="(min-width: 577px)">
-               <img srcset="images/carousel/christmasFire600x500.jpg" alt="responsive image" class="d-block img-fluid">
+               <source srcset="images/carousel/Rip9Free.jpg" media="(min-width: 769px)">
+               <source srcset="images/carousel/Rip9Free800x500.jpg" media="(min-width: 577px)">
+               <img srcset="images/carousel/Rip9Free600x500.jpg" alt="responsive image" class="d-block img-fluid">
            </picture>
         </div>
         <div class="carousel-item">
             <picture>
-                <source srcset="images/carousel/groupCookRESIZE.jpg" media="(min-width: 769px)">
-                <source srcset="images/carousel/groupCook800x500.jpg" media="(min-width: 577px)">
-                <img srcset="images/carousel/groupCook600x500.jpg" alt="responsive image" class="d-block img-fluid">
+                <source srcset="images/carousel/RebirthFree.jpg" media="(min-width: 769px)">
+                <source srcset="images/carousel/RebirthFree800x500.jpg" media="(min-width: 577px)">
+                <img srcset="images/carousel/RebirthFree600x500.jpg" alt="responsive image" class="d-block img-fluid">
+            </picture>
+        </div>
+        <div class="carousel-item">
+            <picture>
+                <source srcset="images/carousel/Arial.jpg" media="(min-width: 769px)">
+                <source srcset="images/carousel/Arial800x500.jpg" media="(min-width: 577px)">
+                <img srcset="images/carousel/Arial600x500.jpg" alt="responsive image" class="d-block img-fluid">
             </picture>
         </div>
     </div>
@@ -132,7 +139,7 @@
                 <div class="flip-circle mx-auto">
                     <div class="flip-circle-inner">
                         <div class="flip-circle-front">
-                            <img  class="img-fluid rounded-circle" src="images/marcusHeadshotResize.jpg" alt="Marcus" >
+                            <img class="img-fluid rounded-circle" src="images/profile/marcusHeadshotResize.jpg" alt="Marcus" >
                         </div>
                         <div class="flip-circle-back">
                             <h2>Marcus</h2>
@@ -152,18 +159,22 @@
                 <div class="flip-circle mx-auto">
                     <div class="flip-circle-inner">
                         <div class="flip-circle-front">
-                            <img  class="img-fluid rounded-circle" src="images/lindseyHeadshotResize.jpg" alt="Lindsey" >
+                            <img class="img-fluid rounded-circle" src="images/profile/lindseyHeadshotResize.jpg" alt="Lindsey" >
                         </div>
                         <div class="flip-circle-back">
                             <h2>Lindsey</h2>
+
                             <p>Project Director <a href="mailto:lindsey@jumpbeatproject.org">lindsey@jumpbeatproject.org</a></p>
+                            <h6 class="text-white">815-245-2221</h6>
                         </div>
                     </div>
                 </div>
             </div>
             <h3 class="mt-4 text-white">Project Director</h3>
             <h5 class="text-white">Lindsey Schmalz</h5>
+
             <h5><a href="mailto:lindsey@jumpbeatproject.org">lindsey@jumpbeatproject.org</a></h5>
+
         </div>
 
 
@@ -172,7 +183,7 @@
                 <div class="flip-circle mx-auto">
                     <div class="flip-circle-inner">
                         <div class="flip-circle-front">
-                            <img  class="img-fluid rounded-circle" src="images/derrickHeadshotResize.jpg" alt="Derrick" >
+                            <img class="img-fluid rounded-circle" src="images/profile/derrickHeadshotResize.jpg" alt="Derrick" >
                         </div>
                         <div class="flip-circle-back">
                             <h2>Derrick</h2>
@@ -198,7 +209,7 @@
         <div class="col-6">
             <img class="img-fluid" src="images/JumpBeatLogo_V4.png">
 
-            <h3 class=" socialWhite"><a href="tel:+17206079406">720-607-9406</a></h3>
+            <h3 class=" socialWhite"><a href="tel:+17205302806">720-530-2806</a></h3>
             <h5 class="socialWhite"><a href="mailto:info@jumpbeatproject.org">info@jumpbeatproject.org</a></h5>
         </div>
         <div class="col-3"></div>
@@ -234,11 +245,8 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="js/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
-
-<script src="js/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="js/classie.js"></script>
-<script src="js/creative.min.js"></script>
+<script src="js/bootstrap/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
