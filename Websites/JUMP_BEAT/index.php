@@ -88,13 +88,13 @@
 
 <main role="main" class="cause " class="container-fluid" id="mission" >
     <div class="row no-gutters ">
-        <div class="cause text-center causeWrapper">
+        <div class="cause text-center causeWrapper missionDownsize">
             <hr>
             <h1 class="text-uppercase mt-3 ">Our Mission</h1>
             <hr class="mb-5">
             <h3 class="offset-1 col-10  mb-2 line-height"> We are a collective of visionaries with a goal to enrich our communities through art & music. The Jump Beat Project is a non-profit organization that funds local outreach programs for underprivileged youth. Be a part of this ever expanding adventure & come contribute to the movement!!</h3>
 
-            <div class="row causeRowPadding">
+            <div class="row causeRowPadding ">
                 <div class="col-md-2"></div>
 
 

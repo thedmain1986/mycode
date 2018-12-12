@@ -70,12 +70,15 @@ hr {
 }
 
 
+
 @media (max-width: 599px) {
     .btn-responsive {
         font-size:11px;
         padding:4px 6px;
     }
-
+    .missionDownsize h3{
+        font-size: 1.2em !important;
+    }
     .footerDownsize h5{
         font-size:11px;
     }
@@ -141,6 +144,7 @@ hr {
     .textHeadings h3{
         font-size: 2em !important;
     }
+
 
 }
 
