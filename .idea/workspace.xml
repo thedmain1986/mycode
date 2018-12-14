@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cec05a5d-3045-400d-bd10-2e252ba2bebf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Websites/HOME_PAGE/img/Square_Jump_Beat350x350.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Websites/HOME_PAGE/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Websites/HOME_PAGE/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Websites/JUMP_BEAT/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/Websites/JUMP_BEAT/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Websites/JUMP_BEAT/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/Websites/JUMP_BEAT/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Websites/JUMP_BEAT/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Websites/JUMP_BEAT/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +16,11 @@
     <session id="-1327945572">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="3" />
-          <entry key="project.open.time.8" value="3" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.8" value="4" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -30,15 +28,16 @@
           <entry key="CSS" value="2" />
           <entry key="Image" value="11" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="4" />
+          <entry key="PHP" value="6" />
           <entry key="PLAIN_TEXT" value="2" />
+          <entry key="RNG Compact" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="379" />
           <entry key="JavaScript" value="8" />
-          <entry key="PHP" value="417" />
+          <entry key="PHP" value="488" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
@@ -47,26 +46,21 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Websites/JUMP_BEAT/css/custom.css">
+        <entry file="file://$PROJECT_DIR$/Websites/JUMP_BEAT/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="377" column="14" lean-forward="true" selection-start-line="377" selection-start-column="14" selection-end-line="377" selection-end-column="14" />
+            <state relative-caret-position="178">
+              <caret line="65" column="10" lean-forward="true" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Websites/HOME_PAGE/index.php">
+        <entry file="file://$PROJECT_DIR$/Websites/JUMP_BEAT/contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="178" lean-forward="true" selection-start-line="178" selection-end-line="178" />
+            <state relative-caret-position="178">
+              <caret line="157" column="21" selection-start-line="157" selection-start-column="21" selection-end-line="157" selection-end-column="21" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Websites/HOME_PAGE/img/1.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -90,6 +84,8 @@
       <find>face</find>
       <find>Helping</find>
       <find>Searchjum</find>
+      <find>Phone</find>
+      <find>720</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,11 +96,11 @@
       <list>
         <option value="$PROJECT_DIR$/Websites/JUMP_BEAT/js/copyText.js" />
         <option value="$PROJECT_DIR$/Websites/JUMP_BEAT/js/carouselCustom.js" />
-        <option value="$PROJECT_DIR$/Websites/JUMP_BEAT/contact.php" />
-        <option value="$PROJECT_DIR$/Websites/JUMP_BEAT/index.php" />
         <option value="$PROJECT_DIR$/Websites/JUMP_BEAT/css/custom.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Websites/HOME_PAGE/index.php" />
+        <option value="$PROJECT_DIR$/Websites/JUMP_BEAT/index.php" />
+        <option value="$PROJECT_DIR$/Websites/JUMP_BEAT/contact.php" />
       </list>
     </option>
   </component>
@@ -157,14 +153,7 @@
               <item name="CodeProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeProjects" type="462c0819:PsiDirectoryNode" />
               <item name="Websites" type="462c0819:PsiDirectoryNode" />
-              <item name="HOME_PAGE" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="Websites" type="462c0819:PsiDirectoryNode" />
-              <item name="HOME_PAGE" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="JUMP_BEAT" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,17 +204,17 @@
       <workItem from="1544479260672" duration="564000" />
       <workItem from="1544480346711" duration="12000" />
       <workItem from="1544480622166" duration="1207000" />
+      <workItem from="1544811349239" duration="233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22026000" />
+    <option name="totallyTimeSpent" value="22259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27228788" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27604726" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -239,7 +228,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3299435" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -273,20 +262,6 @@
     <entry file="file://$PROJECT_DIR$/Websites/JUMP_BEAT/images/JumpBeat_Background.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Websites/JUMP_BEAT/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="113" column="57" lean-forward="true" selection-start-line="113" selection-start-column="57" selection-end-line="113" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Websites/JUMP_BEAT/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -294,23 +269,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Websites/HOME_PAGE/img/2RESIZE.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Websites/JUMP_BEAT/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="377" column="14" lean-forward="true" selection-start-line="377" selection-start-column="14" selection-end-line="377" selection-end-column="14" />
+        <state relative-caret-position="7917">
+          <caret line="384" column="14" selection-start-line="384" selection-start-column="14" selection-end-line="384" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Websites/HOME_PAGE/img/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Websites/HOME_PAGE/img/2RESIZE.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Websites/HOME_PAGE/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="178" lean-forward="true" selection-start-line="178" selection-end-line="178" />
+        <state relative-caret-position="262">
+          <caret line="215" column="38" selection-start-line="215" selection-start-column="33" selection-end-line="215" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="127" column="18" selection-start-line="127" selection-start-column="18" selection-end-line="127" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Websites/JUMP_BEAT/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="65" column="10" lean-forward="true" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Websites/JUMP_BEAT/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="157" column="21" selection-start-line="157" selection-start-column="21" selection-end-line="157" selection-end-column="21" />
         </state>
       </provider>
     </entry>

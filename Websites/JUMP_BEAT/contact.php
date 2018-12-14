@@ -68,7 +68,7 @@
     <div class="contactWrapper d-none d-md-block ">
         <ul class="list-inline m-0 ">
             <li class="text-white h-100 justify-content-center align-items-center"><a href="contact.php">CONTACT US</a></li>
-            <li class="header-info align-center  "><a href="tel:17205302806">720-530-2806</a></li></li>
+            <li class="header-info align-center  "><a href="tel:18152452221">815-245-2221</a></li></li>
             <li><a href="https://twitter.com/JumpBeatProject" target="_blank" ><i class="fa fa-twitter fa-2x whiteText" aria-hidden="true"></i></a></li>
             <li> <a href="https://www.facebook.com/jumpbeatproject/"  target="_blank"><i class="fa fa-facebook fa-2x whiteText " aria-hidden="true"></i></a></li>
             <li> <a href="https://www.instagram.com/jumpbeatproject/" target="_blank" ><i class="fa fa-instagram fa-2x whiteText" aria-hidden="true"></i></a></li>
@@ -165,7 +165,7 @@
                             <h2>Lindsey</h2>
 
                             <p>Project Director <a href="mailto:lindsey@jumpbeatproject.org">lindsey@jumpbeatproject.org</a></p>
-                            <h6 class="text-white">815-245-2221</h6>
+
                         </div>
                     </div>
                 </div>
@@ -209,7 +209,7 @@
         <div class="col-6">
             <img class="img-fluid" src="images/JumpBeatLogo_V4.png">
 
-            <h3 class=" socialWhite"><a href="tel:+17205302806">720-530-2806</a></h3>
+            <h3 class=" socialWhite"><a href="tel:+18152452221">815-245-2221</a></h3>
             <h5 class="socialWhite"><a href="mailto:info@jumpbeatproject.org">info@jumpbeatproject.org</a></h5>
         </div>
         <div class="col-3"></div>
