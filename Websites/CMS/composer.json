@@ -1,0 +1,17 @@
+{
+    "name": "crazyeyekila/cms",
+    "require": {
+        "phpmailer/phpmailer": "^6.0"
+    },
+    "autoload": {        
+        "classmap":[
+            "classes/"          
+             ]        
+    },
+    "authors": [
+        {
+            "name": "Derrick Jones",
+            "email": "thedmain1986@gmail.com"
+        }
+    ]
+}
