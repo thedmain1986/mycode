@@ -1,0 +1,35 @@
+.home_page_photo{
+    
+    width: 200px !important;
+    height: 150px !important;
+    
+}
+
+.row.flex{
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+
+/*****Home Page Pagination*******/
+
+.pager .active a{
+    
+    background-color: black !important;
+    color: white !important;
+    
+}
+
+
+.pager .active a:hover{
+    
+    background-color: black !important;
+    color: red !important;
+    border: 1px solid red;
+    outline-style: solid;
+    outline-color: red;
+    transition: 0.5s;
+    
+}
