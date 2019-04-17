@@ -5,6 +5,11 @@
     overflow: hidden;
 
 }
+
+.active {
+    background-color: #fff;
+
+}
 .awardsContainer{
     padding-top: 5em!important;
     padding-bottom: 5em!important;
@@ -25,6 +30,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Spectral', serif;
     font-weight: 700;
 }
+
 
 header.masthead2
 {

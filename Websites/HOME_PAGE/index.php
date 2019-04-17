@@ -140,56 +140,61 @@
 <section class="container-fluid section3 bg-dark">
     <div class="container ">
         <div class="row">
-            <div class="col-lg-4 col-6 portfolio-item text-center">
-                <div class="card h-100">
+            <div class="col-lg-3 col-6 portfolio-item text-center">
+                <div class="card">
                     <a href="http://djsimaginarium.com/cms/" target="_blank"><img class="card-img-top" src="img/1RESIZE.jpg" alt=""></a>
                     <div class="card-body d-flex flex-column">
-                        <h4 class="card-title">
-                            <p>Forum CMS</p>
-                        </h4>
-                        <p class="card-text">A complex, Forum CMS.</p>
+
+                        <p class="card-text">CMS FORUM</p>
                         <a href="http://djsimaginarium.com/cms/" target="_blank" class="btn-sm btn-primary mt-auto">Check it out</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-6 portfolio-item text-center">
+            <div class="col-lg-3 col-6 portfolio-item text-center">
                 <div class="card h-100">
                     <a href="http://djsimaginarium.com/fitness/" target="_blank"><img class="card-img-top" src="img/2RESIZE.jpg" alt=""></a>
                     <div class="card-body d-flex flex-column">
-                        <h4 class="card-title">
-                            <p>Fitness Website</p>
-                        </h4>
-                        <p class="card-text">Personal Responsive Landing Page</p>
+
+                        <p class="card-text">RESPONSIVE WEBSITE</p>
                         <a href="http://djsimaginarium.com/fitness/" target="_blank" class="btn-sm btn-primary mt-auto">Check it out</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-6 portfolio-item text-center">
+            <div class="col-lg-3 col-6 portfolio-item text-center">
                 <div class="card h-100">
                     <a href="http://djsimaginarium.com/jumpbeat/" target="_blank"><img class="card-img-top" src="img/Square_Jump_Beat350x350.jpg" alt=""></a>
                     <div class="card-body d-flex flex-column">
-                        <h4 class="card-title">
-                            <p class="text-center">Jump Beat Project</p>
-                        </h4>
-                        <p class="card-text">Non-Profit Website</p>
-                        <a href="http://djsimaginarium.com/search/" target="_blank" class="btn-sm btn-primary text-center mt-auto ">Check it out</a>
+
+                        <p class="card-text">NON-PROFIT WEBSITE</p>
+                        <a href="http://djsimaginarium.com/jumpbeat/" target="_blank" class="btn-sm btn-primary text-center mt-auto ">Check it out</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-6 portfolio-item text-center">
+                <div class="card h-100">
+                    <a href="http://djsimaginarium.com/gallery/" target="_blank"><img class="card-img-top" src="img/car350x350.png" alt=""></a>
+                    <div class="card-body d-flex flex-column">
+
+                        <p class="card-text">GALLERY SYSTEM</p>
+                        <a href="http://djsimaginarium.com/gallery/" target="_blank" class="btn-sm btn-primary text-center mt-auto ">Check it out</a>
                     </div>
                 </div>
             </div>
 
 
-<!--            <div class="col-lg-4 col-6 portfolio-item text-center">-->
-<!--                <div class="card h-100">-->
-<!--                    <a href="#" target="_blank"><img class="card-img-top" src="img/BassDrop_2018_Rework_FINAL.jpg" alt=""></a>-->
-<!--                    <div class="card-body d-flex flex-column">-->
-<!--                        <h4 class="card-title">-->
-<!--                            <p class="text-center">Concert Poster</p>-->
-<!--                        </h4>-->
-<!--                        <p class="card-text">JumpBeat and 720Graphix Poster</p>-->
-<!--                        <a href="#" target="_blank" class="btn-sm btn-primary text-center mt-auto ">Check it out</a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
+            <!--            <div class="col-lg-4 col-6 portfolio-item text-center">-->
+            <!--                <div class="card h-100">-->
+            <!--                    <a href="#" target="_blank"><img class="card-img-top" src="img/BassDrop_2018_Rework_FINAL.jpg" alt=""></a>-->
+            <!--                    <div class="card-body d-flex flex-column">-->
+            <!--                        <h4 class="card-title">-->
+            <!--                            <p class="text-center">Concert Poster</p>-->
+            <!--                        </h4>-->
+            <!--                        <p class="card-text">JumpBeat and 720Graphix Poster</p>-->
+            <!--                        <a href="#" target="_blank" class="btn-sm btn-primary text-center mt-auto ">Check it out</a>-->
+            <!--                    </div>-->
+            <!--                </div>-->
+            <!--            </div>-->
 
         </div>
     </div>
@@ -238,14 +243,9 @@
 <!-- Custom scripts for this template -->
 <script src="../FITNESS_SITE/js/creative.min.js"></script>
 <script src="js/parallax.min.js"></script>
+<script src="js/scripts.js"></script>
 
 </body>
 
 </html>
-<?php
-/**
- * Created by PhpStorm.
- * User: CrAzYeyeKiLa
- * Date: 10/4/2018
- * Time: 9:10 PM
- */
+
