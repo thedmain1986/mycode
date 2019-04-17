@@ -37,6 +37,8 @@ $comments = Comment::find_all();
                     
                 </h1>
                 
+                <p class="bg-success"><?php echo $message; ?></p>
+                
                 <a href="add_user.php" class="btn btn-primary">Add User</a>
 
 
@@ -60,7 +62,7 @@ $comments = Comment::find_all();
                                
                                 <td><?php echo $comment->author; ?>  
                                     <div class="actions_link">
-                                        <a href="delete_comment.php?id=<?php echo $comment->id ?>">Delete</a>
+                                        <a class="delete_link" href="delete_comment.php?id=<?php echo $comment->id ?>">Delete</a>
                                                                                
                                     </div>                   
 

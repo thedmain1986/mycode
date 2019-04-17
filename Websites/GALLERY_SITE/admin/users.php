@@ -32,10 +32,12 @@ $users = User::find_all();
         <!-- Page Heading -->
         <div class="row">
             <div class="col-lg-12">
+               
                 <h1 class="page-header">
                     Users
                     
                 </h1>
+                <p class="bg-success"><?php echo $message; ?></p>
                 
                 <a href="add_user.php" class="btn btn-primary">Add User</a>
 
@@ -61,7 +63,7 @@ $users = User::find_all();
                                 <td><img class="user_image" src="<?php echo $user->image_path_and_placeholder(); ?>" alt=""></td>
                                 <td><?php echo $user->username; ?>  
                                     <div class="actions_link">
-                                        <a href="delete_user.php?id=<?php echo $user->id ?>">Delete</a>
+                                        <a class="delete_link" href="delete_user.php?id=<?php echo $user->id ?>">Delete</a>
                                         <a href="edit_user.php?id=<?php echo $user->id ?>">Edit</a>
                                         
                                     </div>                   

@@ -27,13 +27,20 @@ if(isset($_POST['update'])){
         if(empty($_FILES['user_image'])){
             
             $user->save();
+            redirect("users.php");
+            $session->message("The user {$user->username} has been updated!");
             
+            
+            
+                       
         }else{
             $user->set_file($_FILES['user_image']);
             $user->upload_photo();
             $user->save();
+            $session->message("The user {$user->username} has been updated!");
             
-            redirect("edit_user.php?id={$user->id}");
+            //redirect("edit_user.php?id={$user->id}");
+            redirect("users.php");
         }
 
     }
@@ -81,7 +88,7 @@ if(isset($_POST['update'])){
                 </h1>
 
 
-                <div class="col-md-4">
+                <div class="col-md-4 user_image_box">
 
                     <a href="#" data-toggle="modal" data-target="#photo-library"><img class="img-responsive" src="<?php echo $user->image_path_and_placeholder() ?>" alt=""></a>
 
@@ -121,7 +128,7 @@ if(isset($_POST['update'])){
 
                         <div class="form-group">
                             
-                             <a class="btn-lg btn-danger" id="user-id" href="delete_user.php?id=<?php echo $user->id ?>">Delete</a>
+                             <a class="btn-lg btn-danger" id="user-id" class="delete_link" href="delete_user.php?id=<?php echo $user->id ?>">Delete</a>
 
                             <input type="submit" name ="update" class="btn-lg btn-primary pull-right  " value="Update" >
 

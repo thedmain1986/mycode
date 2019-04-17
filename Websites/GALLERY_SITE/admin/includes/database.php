@@ -29,6 +29,8 @@ class Database {
             die("Database connection failed" . $this->connection->connect_error);
 
         }
+        
+        return $this->connection;
 
     }//end open_db
 

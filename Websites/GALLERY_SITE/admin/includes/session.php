@@ -21,6 +21,10 @@ class Session{
     }
     
     
+    
+    
+    
+    
     public function visitor_count(){
         
         if(isset($_SESSION['count'])){
@@ -120,6 +124,7 @@ class Session{
 
 
 $session = new Session();
+$message = $session->message();
 
 
 ?>
